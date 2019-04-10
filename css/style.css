@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    background-size: cover;
+    text-align: center;
+    width: auto;
+
+}
+
+.main {
+    padding: 0;
+    margin: 0;
+    background: url('/images/monkees.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+.logo img {
+    float: left;
+    height: 40px;
+    margin: 0;
+}
+
+ul {
+    text-align: center;
+    margin-top: 0px;
+    margin-right: 15px;
+}
+
+ul li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: red;
+    padding: 8px 12px;
+    border: 3px solid red;
+}
+
+ul li a:active {
+    color: white;
+    background-color: red;
+}
+
+.justify-content-center {
+    justify-content: center!important;
+}
+
+
+.home-content {
+    background-color: grey;
+    border: 5px solid red;
+    height: 200px;
+    text-align: center;
+    color: red;
+}
+
+.media-content {
+    height: 350px;
+    background: url('/images/cover2.png') repeat center center fixed;
+}
+
+
+.gallery-content {
+    background-color: grey;
+    text-align: center;
+}
+
+.filler2{
+    background: url('/images/cover3.jpg') no-repeat center center fixed;
+    height: 50vh;
+    background-size: cover;
+}
+
+.contact-content {
+    height: 100vh;
+    background-color: red;
+    padding-left: 50px;
+}
+
+footer {
+
+    background-color: white;
+    height: 100px;
+}
+
+.footer-space {
+    border: 5px solid black;
+    height: 100px;
+}
+
+
+.image-container {
+    margin: 25px;
+    display: inline-block;
+    width: auto;
+    height: auto;
+}
+
+.image-container img {
+    height: 200px;
+    width: 200px;
+    border: 3px solid red;
+}
+
+
+.content-header{
+    text-align: center;
+    font-weight: bolder;
+    color: red;
+}
