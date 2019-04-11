@@ -3,6 +3,18 @@
     margin: 0;
 }
 
+p {
+    padding: 20px 30px;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Dokdo', cursive;
+}
+
 nav {
     background-size: cover;
     text-align: center;
@@ -16,11 +28,71 @@ nav {
     background: url('/images/monkees.jpg') no-repeat center center fixed;
     background-size: cover;
     height: 100vh;
+
+    -webkit-animation: fadein 2s;
+    /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2.5s;
+    /* Firefox < 16 */
+    -ms-animation: fadein 2.5s;
+    /* Internet Explorer */
+    -o-animation: fadein 2.5s;
+    /* Opera < 12.1 */
+    animation: fadein 2.5s;
 }
+
+/*---------------------------------------------------------------fade in backgroun*/
+
+/*https://stackoverflow.com/questions/11679567/using-css-for-fade-in-effect-on-page-load*/
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 2.5;
+    }
+}
+
+/* Firefox < 16 */
+
+@-moz-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 2.5;
+    }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+
+@-webkit-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 2.5;
+    }
+}
+
+/* Internet Explorer */
+
+/* Opera < 12.1 */
+
+@-o-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 2.5;
+    }
+}
+
+/*---------------------------------------------------------------*/
 
 .logo img {
     float: left;
-    height: 40px;
+    height: 35px;
     margin: 0;
 }
 
@@ -28,6 +100,7 @@ ul {
     text-align: center;
     margin-top: 0px;
     margin-right: 15px;
+    margin-bottom: 12px;
 }
 
 ul li {
@@ -47,31 +120,28 @@ ul li a:active {
     background-color: red;
 }
 
-.justify-content-center {
-    justify-content: center!important;
-}
-
 
 .home-content {
-    background-color: grey;
+    background-color: #e3d7d7;
     border: 5px solid red;
-    height: 200px;
     text-align: center;
     color: red;
+    padding: 20px 0px;
 }
 
-.media-content {
+
+.filler1 {
     height: 350px;
     background: url('/images/cover2.png') repeat center center fixed;
 }
 
 
 .gallery-content {
-    background-color: grey;
+    background-color: #f6e255;
     text-align: center;
 }
 
-.filler2{
+.filler2 {
     background: url('/images/cover3.jpg') no-repeat center center fixed;
     height: 50vh;
     background-size: cover;
@@ -83,16 +153,6 @@ ul li a:active {
     padding-left: 50px;
 }
 
-footer {
-
-    background-color: white;
-    height: 100px;
-}
-
-.footer-space {
-    border: 5px solid black;
-    height: 100px;
-}
 
 
 .image-container {
@@ -109,8 +169,14 @@ footer {
 }
 
 
-.content-header{
+.content-header {
     text-align: center;
     font-weight: bolder;
     color: red;
 }
+
+.contact-content .content-header {
+    color: white;
+}
+
+/*------------------------------------------------------------/W3 School popup image--*/
