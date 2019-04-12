@@ -6,6 +6,7 @@
 p {
     padding: 20px 30px;
     font-family: 'Gloria Hallelujah', cursive;
+    color: black;
 }
 
 h1,
@@ -15,8 +16,13 @@ h4 {
     font-family: 'Dokdo', cursive;
 }
 
+.content-header {
+    text-align: center;
+    font-weight: bolder;
+    color: red;
+}
+
 nav {
-    background-size: cover;
     text-align: center;
     width: auto;
 
@@ -28,6 +34,8 @@ nav {
     background: url('/images/monkees.jpg') no-repeat center center fixed;
     background-size: cover;
     height: 100vh;
+    top: 0;
+    left: 0;
 
     -webkit-animation: fadein 2s;
     /* Safari, Chrome and Opera > 12.1 */
@@ -40,7 +48,7 @@ nav {
     animation: fadein 2.5s;
 }
 
-/*---------------------------------------------------------------fade in backgroun*/
+/*---------------------------------------------------------------fade in background*/
 
 /*https://stackoverflow.com/questions/11679567/using-css-for-fade-in-effect-on-page-load*/
 
@@ -92,7 +100,8 @@ nav {
 
 .logo img {
     float: left;
-    height: 35px;
+    height: 100%;
+    width: 100px;
     margin: 0;
 }
 
@@ -121,6 +130,8 @@ ul li a:active {
 }
 
 
+/*-----------------------------------------------------------content containers*/
+
 .home-content {
     background-color: #e3d7d7;
     border: 5px solid red;
@@ -129,6 +140,53 @@ ul li a:active {
     padding: 20px 0px;
 }
 
+.gallery-content {
+    background-color: #f6e255;
+    text-align: center;
+    opacity: 0.7;
+}
+
+.row-gallery {
+    padding: 40px 0px;
+}
+
+.image-container {
+    opacity: 1;
+    display: inline;
+    padding:50px;
+    height: 200px;
+    width: 200px
+}
+
+
+.image-container img {
+
+    border: 3px solid red;
+    height: 200px;
+    width: 200px;
+
+}
+
+
+
+.tourdates-content{
+    height: 100vh;
+    background-color: green;
+    padding-left: 50px;
+    opacity: 0.7;
+    }
+
+.contact-content {
+    height: 100vh;
+    background-color: red;
+    padding-left: 50px;
+    opacity: 0.7;
+}
+
+
+
+
+/*---------------------------------------------------------------filler 3 */
 
 .filler1 {
     height: 350px;
@@ -136,47 +194,55 @@ ul li a:active {
 }
 
 
-.gallery-content {
-    background-color: #f6e255;
-    text-align: center;
-}
-
 .filler2 {
     background: url('/images/cover3.jpg') no-repeat center center fixed;
     height: 50vh;
     background-size: cover;
 }
 
-.contact-content {
-    height: 100vh;
-    background-color: red;
-    padding-left: 50px;
+
+.filler3 {
+    background: url('/images/filler3.jpg') no-repeat center center fixed;
+    height: 80vh;
+    background-size: cover;
 }
 
 
 
-.image-container {
-    margin: 25px;
-    display: inline-block;
-    width: auto;
-    height: auto;
+
+
+
+
+/*-------------------------------------------------------------logos*/
+
+.brand-container {
+    width: 50%;
+    margin: 0 auto;
+    vertical-align: middle;
+
 }
 
-.image-container img {
-    height: 200px;
-    width: 200px;
-    border: 3px solid red;
+.brand-container .brandlogo {
+    margin-top: 80px;
+    height: 100%;
+    width: 100%;
+    transition: none;
+
 }
 
-
-.content-header {
-    text-align: center;
-    font-weight: bolder;
-    color: red;
+.brand-container .brandlogo img {
+    height: 100%;
+    width: 100%;
 }
 
 .contact-content .content-header {
     color: white;
+}
+
+
+.logo {
+    height: 35px;
+    width: 70px;
 }
 
 /*------------------------------------------------------------/W3 School popup image--*/
