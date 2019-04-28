@@ -16,19 +16,18 @@ h4 {
     font-family: 'Dokdo', cursive;
 }
 
+
 .content-header {
     text-align: center;
     font-weight: bolder;
     color: red;
 }
 
-nav {
-    text-align: center;
-    width: auto;
 
-}
 
-.main {
+
+
+.main-container {
     padding: 0;
     margin: 0;
     background: url('/images/monkees.jpg') no-repeat center center fixed;
@@ -96,39 +95,32 @@ nav {
     }
 }
 
-/*---------------------------------------------------------------*/
+/*----------------/*https://stackoverflow.com/questions/11679567/using-css-for-fade-in-effect-on-page-load*/
 
-.logo img {
-    float: left;
-    height: 100%;
-    width: 100px;
-    margin: 0;
+
+/*-----------------------------------------------------------nav*/
+
+
+nav{
+    z-index: 1000;
 }
 
-ul {
-    text-align: center;
-    margin-top: 0px;
-    margin-right: 15px;
-    margin-bottom: 12px;
-}
-
-ul li {
-    display: inline-block;
-    margin-left: 10px;
-}
-
-ul li a {
-    text-decoration: none;
+.nav-link{
     color: red;
-    padding: 8px 12px;
-    border: 3px solid red;
 }
 
-ul li a:active {
-    color: white;
-    background-color: red;
+
+
+
+/*---------------https://www.codeply.com/go/4FdZGlPMNV-------------------------*/
+.custom-toggler.navbar-toggler {
+    border-color: rgb(255, 87, 87);
 }
 
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,87,87)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+/*----------------/https://www.codeply.com/go/4FdZGlPMNV------------------------*/
 
 /*-----------------------------------------------------------content containers*/
 
@@ -153,7 +145,7 @@ ul li a:active {
 .image-container {
     opacity: 1;
     display: inline;
-    padding:50px;
+    padding: 50px;
     height: 200px;
     width: 200px
 }
@@ -169,17 +161,15 @@ ul li a:active {
 
 
 
-.tourdates-content{
+.tourdates-content {
     height: 100vh;
     background-color: green;
-    padding-left: 50px;
     opacity: 0.7;
-    }
+}
 
 .contact-content {
     height: 100vh;
     background-color: red;
-    padding-left: 50px;
     opacity: 0.7;
 }
 
@@ -226,7 +216,15 @@ ul li a:active {
     margin-top: 80px;
     height: 100%;
     width: 100%;
-    transition: none;
+    -webkit-animation: fadein 5s;
+    /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 5s;
+    /* Firefox < 16 */
+    -ms-animation: fadein 5s;
+    /* Internet Explorer */
+    -o-animation: fadein 5s;
+    /* Opera < 12.1 */
+    animation: fadein 5s;
 
 }
 

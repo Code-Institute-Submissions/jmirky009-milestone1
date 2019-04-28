@@ -5,10 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Dokdo|Gloria+Hallelujah" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" type="text/css" />
-    <link rel="script" href="js/script.js" />
     <title>~Monkiees</title>
 </head>
 
@@ -16,19 +18,31 @@
 
     <header>
 
+        
+            <nav class="navbar navbar-expand-md navbar-light sticky-top">
+                <button class="navbar-toggler custom-toggler" data-toggle="collapse" data-target="#collapse_target">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+                <div class="collapse navbar-collapse" id="collapse_target">
 
-        <div class="main">
-            <div class="logo"><img src="/images/kisspng-the-monkees-logo.png"></img>
-            </div>
-            <nav>
-                <ul>
-                    <li class="nav-item"><a href="#">Home</a></li>
-                    <li class="nav-item"><a href="#">Media</a></li>
-                    <li class="nav-item"><a href="#TourDates">Upcoming Events</a></li>
-                    <li class="nav-item"><a href="#Gallery">Gallery</a></li>
-                    <li class="nav-item"><a href="#Contact">Contact</a></li>
-                </ul>
+                    <a class="navbar-brand"><img class="logo" src=/images/Monkees-logo.png></a>
+                    <ul class="navbar nav">
+                        <li class="navbar-item">
+                            <a class="nav-link" href="#">Link 1</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a class="nav-link" href="#">Link 2</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a class="nav-link" href="#">Link 3</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a class="nav-link" href="#">Link 4</a>
+                        </li>
+                    </ul>
+                </div>
             </nav>
+            <div class="main-container">
             <div class="brand-container">
 
                 <img class="brandlogo" src="/images/kisspng-the-monkees-logo.png"></img>
@@ -39,92 +53,82 @@
     <div class="home-content">
         <div class="content-header">
             <h1>The Monkees</h1>
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span></button>
         </div>
         <div class="row">
             <div class="col-6">
                 <p>The Monkees are an American rock and pop band originally active between 1966 and 1971, with reunion albums and tours in the decades that followed. They were formed in Los Angeles in 1965 by Bob Rafelson and Bert Schneider specifically
-                    for the American television series The Monkees, which aired from 1966 to 1968. The musical acting quartet was composed of Americans Micky Dolenz, Michael Nesmith, and Peter Tork; and the English actor and singer Davy Jones. The band's
-                    music was initially supervised by producer Don Kirshner, backed by the songwriting duo of Tommy Boyce and Bobby Hart.</p>
+                    for the American television series The Monkees, which aired from 1966 to 1968.</p>
+                <p class="col-6 d-none d-sm-inline">The musical acting quartet was composed of Americans Micky Dolenz, Michael Nesmith, and Peter Tork; and the English actor and singer Davy Jones. The band's music was initially supervised by producer Don Kirshner, backed by the songwriting
+                    duo of Tommy Boyce and Bobby Hart.</p>
             </div>
             <div class="col-6">
                 <p>The four actor-musicians were initially allowed only limited roles in the recording studio for the first few months of their five-year career as "the Monkees". This was due in part to the amount of time required to film the television
-                    series.[1] Nonetheless, Nesmith did compose and produce some songs from the beginning, and Tork contributed limited guitar work on the sessions produced by Nesmith. All four contributed lead vocals to various tracks. They eventually
-                    fought for the right to collectively supervise all musical output under the band's name, acting as musicians, singers, songwriters and producers.</p>
+                    series.[1] Nonetheless, Nesmith did compose and produce some songs from the beginning, and Tork contributed limited guitar work on the sessions produced by Nesmith.</p>
+                <p class="col-6 d-none d-sm-inline">All four contributed lead vocals to various tracks. They eventually fought for the right to collectively supervise all musical output under the band's name, acting as musicians, singers, songwriters and producers.</p>
             </div>
         </div>
     </div>
-    <div class="filler1">
-
-
-    </div>
+    <div class="filler1"></div>
     <div class="gallery-content">
         <div class="content-header">
             <a name="Gallery"></a>
             <h1>Gallery</h1>
         </div>
         <div class="row-gallery">
-            <div class="col-12">
-                <div class="image-container col-sm-6 col-lg-3">
-                    <img src="/images/cover.jpg"></img>
-                </div>
-                <div class="image-container col-sm-6 col-lg-3">
-                    <img src="/images/album.jpg"></img>
-                </div>
-                <div class="image-container col-sm-6 col-lg-3">
-                    <img src="/images/band.jpg"></img>
-                </div>
-                <div class="image-container col-sm-6 col-lg-3">
-                    <img src="/images/cover.jpg"></img>
-                </div>
+            <div class="image-container">
+                <img src="/images/cover.jpg"></img>
+            </div>
+            <div class="image-container">
+                <img src="/images/album.jpg"></img>
+            </div>
+            <div class="image-container">
+                <img src="/images/band.jpg"></img>
+            </div>
+            <div class="image-container">
+                <img src="/images/cover.jpg"></img>
             </div>
         </div>
         <div class="row-gallery">
-            <div class="col-12">
-                <div class="image-container col-sm-6 col-lg-3">
-                    <img src="/images/cover.jpg"></img>
-                </div>
-                <div class="image-container col-sm-6 col-lg-3">
-                    <img src="/images/album.jpg"></img>
-                </div>
-                <div class="image-container col-sm-6 col-lg-3">
-                    <img src="/images/band.jpg"></img>
-                </div>
-                <div class="image-container col-sm-6 col-lg-3">
-                    <img src="/images/band.jpg"></img>
-                </div>
+            <div class="image-container">
+                <img src="/images/cover.jpg"></img>
+            </div>
+            <div class="image-container">
+                <img src="/images/album.jpg"></img>
+            </div>
+            <div class="image-container">
+                <img src="/images/band.jpg"></img>
+            </div>
+            <div class="image-container">
+                <img src="/images/band.jpg"></img>
             </div>
         </div>
         <div class="row-gallery">
-            <div class="col-12">
-                <div class="image-container col-sm-6 col-lg-3">
-                    <img src="/images/cover.jpg"></img>
-                </div>
-                <div class="image-container col-sm-6 col-lg-3">
-                    <img src="/images/album.jpg"></img>
-                </div>
-                <div class="image-container col-sm-6 col-lg-3">
-                    <img src="/images/band.jpg"></img>
-                </div>
-                <div class="image-container col-sm-6 col-lg-3">
-                    <img src="/images/band.jpg"></img>
-                </div>
+            <div class="image-container">
+                <img src="/images/cover.jpg"></img>
+            </div>
+            <div class="image-container">
+                <img src="/images/album.jpg"></img>
+            </div>
+            <div class="image-container">
+                <img src="/images/band.jpg"></img>
+            </div>
+            <div class="image-container">
+                <img src="/images/band.jpg"></img>
             </div>
         </div>
     </div>
 
-    <div class="filler2">
-
-    </div>
+    <div class="filler2"></div>
     <a name="TourDates"></a>
     <div class="tourdates-content">
         <div class="content-header">
             <h1>Tour Dates</h1>
         </div>
     </div>
-    <div class="filler3">
-        
-    </div>
-    
+    <div class="filler3"></div>
+
     <div class="contact-content">
         <div class="content-header">
             <h1>Contact</h1>
