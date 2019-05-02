@@ -97,22 +97,23 @@ h4 {
 
 /*----------------/*https://stackoverflow.com/questions/11679567/using-css-for-fade-in-effect-on-page-load*/
 
-
 /*-----------------------------------------------------------nav*/
+
 
 
 nav{
     z-index: 1000;
 }
 
-.nav-link{
+
+.nav-link {
     color: red;
 }
 
 
 
-
 /*---------------https://www.codeply.com/go/4FdZGlPMNV-------------------------*/
+
 .custom-toggler.navbar-toggler {
     border-color: rgb(255, 87, 87);
 }
@@ -120,6 +121,7 @@ nav{
 .custom-toggler .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,87,87)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
+
 /*----------------/https://www.codeply.com/go/4FdZGlPMNV------------------------*/
 
 /*-----------------------------------------------------------content containers*/
@@ -132,20 +134,23 @@ nav{
     padding: 20px 0px;
 }
 
+
+/*---------------------------gallery*/
+
 .gallery-content {
     background-color: #f6e255;
     text-align: center;
     opacity: 0.7;
+    padding: 0 15px
 }
 
-.row-gallery {
-    padding: 40px 0px;
-}
+
 
 .image-container {
     opacity: 1;
     display: inline;
-    padding: 50px;
+    margin-top: 15px;
+    padding: 0px 15px 0px 15px;
     height: 200px;
     width: 200px
 }
@@ -154,29 +159,108 @@ nav{
 .image-container img {
 
     border: 3px solid red;
-    height: 200px;
-    width: 200px;
+    height: 180px;
+    width: 180px;
 
 }
 
 
 
+/*------------------------------------------------------Tour Dates*/
+
 .tourdates-content {
-    height: 100vh;
     background-color: green;
     opacity: 0.7;
 }
 
-.contact-content {
-    height: 100vh;
+.tourdate-item {
+    margin-left: 60px;
+    padding-top: 30px;
+    border-left: 4px solid red;
+}
+
+.tourdate {
+    margin-left: 50px;
+    margin-bottom: 40px;
+
+}
+
+.tourdate-item::before {
+    content: attr(dates);
+    display: block;
+    margin-left: 20px;
+    padding: 0;
+}
+
+.tourdate-item::after {
+    position: relative;
+    top: -6.5em;
+    left: -11px;
+    width: 20px;
+    height: 20px;
     background-color: red;
-    opacity: 0.7;
+    display: block;
+    border-radius: 30px;
+    content: '';
+}
+
+
+
+.ticket-link {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+
+
+.ticket-link-closed {
+    text-decoration: line-through;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-left: 10px;
+
+}
+
+
+.tour-location-closed {
+    text-decoration: line-through;
+}
+
+.tourdate-image{
+    margin-left: 50px;
+}
+
+.tourdate-image img {
+    height: 80%;
+    width: 80%;
+    border-radius: 50%;
+    border: red 5px solid;
+    max-height: 310px;
+    max-width: 520px;
 }
 
 
 
 
-/*---------------------------------------------------------------filler 3 */
+
+@media screen and (max-width: 412px) {
+  #tourimage { display: none; }   /* hide it elsewhere */
+}
+
+
+
+/*------------------------------------------------------------media-content*/
+
+.media-container{
+    background-color: #73b5fc;
+    height: 100vh;
+}
+
+
+/*---------------------------------------------------------------filler */
 
 .filler1 {
     height: 350px;
@@ -243,4 +327,25 @@ nav{
     width: 70px;
 }
 
-/*------------------------------------------------------------/W3 School popup image--*/
+
+
+/*-------------------------------------------------Contact*/
+
+.contact-content {
+    background-color: red;
+    opacity: 0.7;
+}
+
+.contact-us{
+    color: white;
+    margin: 20px 60px;
+}
+
+.form-text{
+    color: white;
+}
+
+
+.btn {
+    margin-bottom: 30px;
+}
