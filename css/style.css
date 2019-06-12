@@ -103,9 +103,7 @@ h8 {
 
 /*-----------------------------------------------------------nav*/
 
-
-
-nav{
+nav {
     z-index: 1000;
     background-color: white;
 }
@@ -115,6 +113,31 @@ nav{
     color: red;
 }
 
+@media (max-width: 575px) {
+    .navbar {
+        display: block;
+
+    }
+
+}
+
+@media (max-width: 575px) {
+    .navbar a  {
+        padding-left: 5px;
+    }
+}
+
+@media (max-width: 575px) {
+    .navbar ul  {
+        padding-left: 5px;
+    }
+}
+
+@media (max-width: 575px) {
+    .hide-logo {
+        display: none;
+    }
+}
 
 
 /*---------------https://www.codeply.com/go/4FdZGlPMNV-------------------------*/
@@ -149,7 +172,7 @@ nav{
     padding-bottom: 30px;
 }
 
-.row{
+.row {
     margin-right: 0;
 }
 
@@ -161,8 +184,9 @@ nav{
     margin-left: auto;
     margin-right: auto;
     height: 180px;
-    width: 180px
-    
+    width: 180px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 
@@ -171,10 +195,8 @@ nav{
     border: 3px solid red;
     height: 100%;
     width: 100%;
-    min-height: 100px;
-    min-width: 100px;
-    max-height: 180px;
-    max-width: 180px;
+    height: 180px;
+    width: 180px;
 
 }
 
@@ -182,9 +204,25 @@ nav{
 
 /*------------------------------------------------------Tour Dates*/
 
+.tourdateflex {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .tourdates-content {
     background-color: green;
     opacity: 0.7;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.tourdate {
+    text-align: center;
+}
+
+.tourdatebox {
     margin: auto;
 }
 
@@ -246,9 +284,10 @@ nav{
     text-decoration: line-through;
 }
 
-.tourdate-image{
-    margin-left: 50px;
+.tourdate-image {
     max-width: 100%;
+    justify-content: space-between;
+
 }
 
 .tourdate-image img {
@@ -257,7 +296,10 @@ nav{
     border-radius: 50%;
     border: red 5px solid;
     max-width: 515px;
- 
+
+
+
+
 }
 
 
@@ -265,57 +307,61 @@ nav{
 
 
 @media screen and (max-width: 767px) {
-  #tourimage { display: none; }   /* hide it elsewhere */
+    #tourimage {
+        display: none;
+    }
+    /* hide it elsewhere */
 }
 
 
 
 /*------------------------------------------------------------media-content*/
 
-.media-container{
+.media-container {
     background-color: #73b5fc;
     padding-bottom: 40px;
 }
 
-.media-heading{
+.media-heading {
     text-align: center;
     margin-bottom: 0;
 }
 
 
-.media-content a{
+.media-content {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.media-content a {
     color: red;
     font-family: 'Gloria Hallelujah', cursive;
-}
-
-.audio-content{
-    
-    
-}
-
-.video-content{
     text-align: center;
 }
 
-.song-list{
-}
+.audio-content {}
 
-.song-item{
+
+
+.song-list {}
+
+.song-item {
     text-align: center;
     list-style-type: none;
 }
 
-.song-item a{
+.song-item a {
     text-decoration: none;
 }
 
-.social-media{
+.social-media {
     margin-top: 20px;
 }
 
-.social-meda-link{
-     display: inline;   
+.social-meda-link {
+    display: inline;
 }
+
 
 
 /*---------------------------------------------------------------filler */
@@ -327,7 +373,7 @@ nav{
 
 
 .filler2 {
-    background: url('/images/cover3.jpg') no-repeat center center fixed;
+    background: url('/images/monkees_filler.jpg') no-repeat center center fixed;
     height: 50vh;
     background-size: cover;
 }
@@ -394,12 +440,12 @@ nav{
     opacity: 0.7;
 }
 
-.contact-us{
+.contact-us {
     color: white;
     margin: 20px 60px;
 }
 
-.form-text{
+.form-text {
     color: white;
 }
 
