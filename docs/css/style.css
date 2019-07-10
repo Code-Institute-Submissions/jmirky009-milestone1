@@ -34,7 +34,7 @@ h8 {
 .main-container {
     padding: 0;
     margin: 0;
-    background: url('https://jmirky009.github.io/milestone1/docs/images/monkees.jpg') no-repeat center center fixed;
+    background: url('https://jmirky009.github.io/milestone1/images/monkees.jpg') no-repeat center center fixed;
     background-size: cover;
     height: 100vh;
     top: 0;
@@ -368,19 +368,19 @@ nav {
 
 .filler1 {
     height: 350px;
-    background: url('https://jmirky009.github.io/milestone1/docs/images/cover2.png') repeat center center fixed;
+    background: url('https://jmirky009.github.io/milestone1/images/cover2.png') repeat center center fixed;
 }
 
 
 .filler2 {
-    background: url('https://jmirky009.github.io/milestone1/docs/images/monkees_filler.jpg') no-repeat center center fixed;
+    background: url('https://jmirky009.github.io/milestone1/images/monkees_filler.jpg') no-repeat center center fixed;
     height: 50vh;
     background-size: cover;
 }
 
 
 .filler3 {
-    background: url('https://jmirky009.github.io/milestone1/docs/images/filler3.jpg') no-repeat center center fixed;
+    background: url('https://jmirky009.github.io/milestone1/images/filler3.jpg') no-repeat center center fixed;
     height: 80vh;
     background-size: cover;
 }
