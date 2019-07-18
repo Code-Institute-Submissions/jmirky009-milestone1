@@ -1,20 +1,24 @@
-User Centric Frontend Development – Code Institute
+# User Centric Frontend Development – Code Institute
 This is a website showcasing the band known as “The Monkees”. On the site you will be able to find general information about the group, images, links to music and videos, upcoming tour dates as well as a form to submit messages to the band.
 
-UX
+## UX
+
 The website was designed with fans in mind who either want to access the bands media or get in touch with them. There isalso scope with being able to stay up to date with tour dates with links that would take them to the ticket sellers. 
 If you wanted to find images, media, tour dates or even contact the band; all of this can be achieved with the top navigation. There are also links to the bands social media accounts so fans can keep up to date with them in other ways. 
 
-User story:
 
-Fan
+## User story:
+
+### Fan
 Can listen to new tracks as well as find the links to social media
 
-Journalist
+### Journalist
 Would be able to see upcoming tour dates or new release and report on them.
 
-Curious
+### Curious
 Someone who hasn’t heard of the band before can easily come to the page and find information about them as well as listen or watch them for the first time.
+
+## Wireframe
 
 Please find the wireframe below
 https://wireframepro.mockflow.com/view/monkeesprojectxyx
