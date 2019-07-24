@@ -34,7 +34,7 @@ Technologies Used
 •	CSS
 •	Bootstrap 4.0.0-alpha.6
 
-Testing
+## Testing
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
 For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
@@ -48,7 +48,11 @@ You should also mention in this section any interesting bugs or problems you dis
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 
-Deployment
+## Deployment
+
+The site is currently deployed on GitHub Pages. To do this I pushed all the content (index page, media assets and style sheets). 
+
+
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
 •	Different values for environment variables (Heroku Config Vars)?
@@ -57,18 +61,18 @@ In particular, you should provide all details of the differences between the dep
 In addition, if it is not obvious, you should also describe how to run your code locally.
 
 
-Credits
+## Credits
 Content
 •	The text for the information section was provided by Wikipedia (https://en.wikipedia.org/wiki/The_Monkees)
 
-Media
+## Media
 •	Most of the images were provided by code institute but others were taken from google images when searching “Monkees HighQuality Images” including:
 o	Morrisonhotelgallery.com
 o	Kiss.png 
 o	Commons.wikimedia.org
 •	Media files for audio and video were provided by code institute
 
-Acknowledgements
+# Acknowledgements
 https://stackoverflow.com/questions/11679567/using-css-for-fade-in-effect-on-page-load - provided insight with how to fade in images on loading 
 
 https://www.codeply.com/go/4FdZGlPMNV - helped me created a custom coloured hamburger icon
