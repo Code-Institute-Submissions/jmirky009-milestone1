@@ -294,8 +294,9 @@ nav {
     height: 80%;
     width: 80%;
     border-radius: 50%;
-    border: red 5px solid;
+    border: rgb(133, 5, 5) 5px solid;
     max-width: 515px;
+    max-height: 273px;
 
 
 
