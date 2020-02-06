@@ -43,9 +43,19 @@ i.	Go to the "Contact Us" page
 ii.	Try to submit the empty form and verify that an error message about the required fields appears
 iii.	Try to submit the form with an invalid email address and verify that a relevant error message appears
 iv.	Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+
+2. Responsive design
+i. The gallery responds to the various screen widths by reducing the number of photos appearing on one row:
+    - 5 images per row on a large row
+    - 4 images per row on a medium screen
+    - 2 images per row on a small screen
+    - 1 image per row on an extra small screen
+
+ii. The blurb for the Monkees collapses into one column when the screen goes to an extra small state (e.g. mobile devices)
+
+iii. The tour date section has responsive images that increase and decrease in size as the screen grows, and disappear altogether when ther screen goes to an extra small state. 
+
+iv. The media sections change from inline to block when the screen reaches a small size (tablet and smaller).
 
 
 ## Deployment
