@@ -291,8 +291,8 @@ nav {
 }
 
 .tourdate-image img {
-    height: 80%;
-    width: 80%;
+    height: 90%;
+    width: 90%;
     border-radius: 50%;
     border: rgb(133, 5, 5) 5px solid;
     max-width: 515px;
@@ -313,6 +313,12 @@ nav {
     }
     /* hide it elsewhere */
 }
+
+@media (max-width: 767px) {
+    #tourimage {
+      padding:0;
+      margin:0;
+    }
 
 
 
@@ -340,11 +346,6 @@ nav {
     text-align: center;
 }
 
-.audio-content {}
-
-
-
-.song-list {}
 
 .song-item {
     text-align: center;
