@@ -4,7 +4,7 @@ This is a website showcasing the band known as “The Monkees”. On the site yo
 
 ## UX
 
-The website was designed with fans in mind who either want to access the bands media or get in touch with them. There isalso scope with being able to stay up to date with tour dates with links that would take them to the ticket sellers. 
+The website was designed with fans in mind who either want to access the bands media or get in touch with them. There is also scope with being able to stay up to date with tour dates with links that would take them to the ticket sellers. 
 If you wanted to find images, media, tour dates or even contact the band; all of this can be achieved with the top navigation. There are also links to the bands social media accounts so fans can keep up to date with them in other ways. 
 
 
