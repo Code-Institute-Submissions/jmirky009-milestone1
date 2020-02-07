@@ -86,7 +86,7 @@ https://stackoverflow.com/questions/11679567/using-css-for-fade-in-effect-on-pag
 
 https://www.codeply.com/go/4FdZGlPMNV - helped me created a custom coloured hamburger icon
 
-https://fonts.googleapis.com/css?family=Dokdo|Gloria+Hallelujah - for the selected font Used
+https://fonts.googleapis.com/css?family=Dokdo|Gloria+Hallelujah - for the selected font used
 
 https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js + https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css provided the relevant stylings for the site. Without this the grid layout would not have been achievable.
 
