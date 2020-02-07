@@ -1,4 +1,5 @@
 # User Centric Frontend Development – Code Institute
+
 This is a website showcasing the band known as “The Monkees”. On the site you will be able to find general information about the group, images, links to music and videos, upcoming tour dates as well as a form to submit messages to the band.
 
 ## UX
@@ -29,15 +30,16 @@ In this section, you should go over the different parts of your project, and des
 
 Features Left to Implement
 •	Having an embedded video player as opposed to a media download
+
 Technologies Used
 •	HTML
 •	CSS
 •	Bootstrap 4.0.0-alpha.6
 
 ## Testing
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+
+To test the responsiveness of images and text sections on the site I used a varety of devices to see how it would display when using a smaller screen. These devices included iPhones, Android Mobiels, Mac laptops and also Windows laptops. On windwos laptops I have used Google Chrome, Firefox and Internet Explorer to test the consistency of the layout.
+
 1.	Contact form:
 i.	Go to the "Contact Us" page
 ii.	Try to submit the empty form and verify that an error message about the required fields appears
@@ -60,15 +62,12 @@ iv. The media sections change from inline to block when the screen reaches a sma
 
 ## Deployment
 
-The site is currently deployed on GitHub Pages. To do this I pushed all the content (index page, media assets and style sheets). 
+The site is currently deployed on GitHub Pages. To do this I pushed all the content (index page, media assets and style sheets) to my Github repository and made it publically accessible. 
 
+There were various branches of the index page created but I used these to test validation features on the Contact Us form. In the end I stayed with the master branch as the form is out of the box from bootstrap.
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-•	Different values for environment variables (Heroku Config Vars)?
-•	Different configuration files?
-•	Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
+To start, the code was run on Cloud9 and due to availability, this was later sent Cloud9 on Amazon Web Services (AWS) instance of Cloud9. This caused minor complications as the original Cloud9 didn't require a root folder for the images and assets to appear. 
+
 
 
 ## Credits
@@ -76,10 +75,10 @@ Content
 •	The text for the information section was provided by Wikipedia (https://en.wikipedia.org/wiki/The_Monkees)
 
 ## Media
-•	Most of the images were provided by code institute but others were taken from google images when searching “Monkees HighQuality Images” including:
-o	Morrisonhotelgallery.com
-o	Kiss.png 
-o	Commons.wikimedia.org
+Most of the images were provided by code institute but others were taken from google images when searching “Monkees HighQuality Images” including:
+•	Morrisonhotelgallery.com
+•	Kiss.png 
+•	Commons.wikimedia.org
 •	Media files for audio and video were provided by code institute
 
 # Acknowledgements
