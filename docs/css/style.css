@@ -305,22 +305,47 @@ nav {
 
 
 
-
-
-@media screen and (max-width: 767px) {
-    #tourimage {
-        display: none;
+@media screen and (max-width: 1200px) {
+    #tourdatebox {
+        margin-left:10px;
+        margin-right: 5px;        
     }
     /* hide it elsewhere */
 }
 
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
+    #tourimage, #tourimage2 {
+        display: none;        
+    }
+    /* hide it elsewhere */
+}
+
+@media screen and (min-width: 767px) {
     #tourimage {
-      padding:0;
-      margin:0;
+        margin-left: 100px;        
+    }
+    /* hide it elsewhere */
+}
+
+@media screen and (min-width: 1200px) {
+    #tourimage {
+        margin-left: 5px;        
+    }
+    /* hide it elsewhere */
+}
+
+    #tourimage, #tourimage2 {
+        padding:0;
+        margin:0;
     }
 
 
+@media screen and (max-width: 1200px) {
+    #tourimage2 {
+        display: none;        
+    }
+    /* hide it elsewhere */
+}
 
 /*------------------------------------------------------------media-content*/
 
